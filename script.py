@@ -11,7 +11,7 @@ import pandas as pd
 from google.colab import files
 import io
 
-# ­> Excel
+# > Excel
 !pip install xlrd
 
 # > Natural Language Toolkit - VADER & Stopwords
@@ -51,14 +51,10 @@ df = df.dropna()
 df["Review"] = df["Review"].str.replace("\(Translated by Google\)", "")
 df["Review"] = df["Review"].str.split("\(Original\)").str[0]
 
-df
-
 #Sentiment analysis by VADER Library
 analyzer = SentimentIntensityAnalyzer()
 sentiment = df['Review'].apply(lambda x: analyzer.polarity_scores(x))
 df = pd.concat([df,sentiment.apply(pd.Series)],1)
-
-df
 
 #Positive - Neutral - Negative sentiment
 #Compound < -0.2 = Negative 
