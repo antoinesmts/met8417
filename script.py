@@ -1,4 +1,5 @@
 #Nom des restaurants - Sentiment analysis des commentaires laissés sur Google Maps
+#Ce script a été modifié avant sa publication afin de l'anonymiser
 #Version 3 - 12/04/2020
 #Import data from XLS file -> Sentiment analysis in Panda frames -> Export to MYSQL Database
 #Basée sur la bibliothèque VADER
