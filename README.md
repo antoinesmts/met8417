@@ -1,4 +1,4 @@
-# met8417
+# Tableau de bord - Gestion de la qualité au sein de restaurants (WebHarvy, Python et Tableau)
 
 Le projet a été mené dans le cadre du cours MET8417 (Gestion des opérations) de l'UQAM à l'hiver 2020. Il fût réalisé au sujet d'une chaîne de restaurants montréalaise. 
 
